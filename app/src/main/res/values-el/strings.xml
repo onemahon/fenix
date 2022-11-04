@@ -44,8 +44,10 @@
 
     <!-- Home - Recently saved bookmarks -->
     <!-- Title for the home screen section with recently saved bookmarks. -->
-    <string name="recent_bookmarks_title">Πρόσφατοι σελιδοδείκτες</string>
+    <string moz:RemovedIn="106" name="recent_bookmarks_title" tools:ignore="UnusedResources">Πρόσφατοι σελιδοδείκτες</string>
 
+    <!-- Title for the home screen section with recently saved bookmarks. -->
+    <string name="recently_saved_title">Πρόσφατα αποθηκευμένα</string>
     <!-- Content description for the button which navigates the user to show all of their saved bookmarks. -->
     <string name="recently_saved_show_all_content_description_2">Εμφάνιση όλων των αποθηκευμένων σελιδοδεικτών</string>
 
@@ -79,6 +81,15 @@
     <string name="open_in_app_cfr_positive_button_text">Μετάβαση στις ρυθμίσεις</string>
     <!-- Text for the negative action button -->
     <string name="open_in_app_cfr_negative_button_text">Απόρριψη</string>
+
+    <!-- Content description for close button used in "contextual feature recommendation" (CFR) popups -->
+    <string name="cfr_dismiss_button_default_content_description">Απόρριψη</string>
+
+    <!-- Total cookie protection "contextual feature recommendation" (CFR) -->
+    <!-- Text for the message displayed in the contextual feature recommendation popup promoting the total cookie protection feature. -->
+    <string name="tcp_cfr_message">Η πιο ισχυρή μας λειτουργία απορρήτου απομονώνει ιχνηλάτες μεταξύ ιστοτόπων.</string>
+    <!-- Text displayed that links to website containing documentation about the "Total cookie protection" feature. -->
+    <string name="tcp_cfr_learn_more">Μάθετε για την Ολική προστασία cookie</string>
 
     <!-- Text for the info dialog when camera permissions have been denied but user tries to access a camera feature. -->
     <string name="camera_permissions_needed_message">Απαιτείται πρόσβαση στην κάμερα. Μεταβείτε στις Ρυθμίσεις Android, πατήστε «Δικαιώματα» και επιλέξτε «Να επιτρέπεται».</string>
@@ -127,16 +138,18 @@
     <string name="recent_tabs_show_all_content_description_2">Κουμπί «Εμφάνιση όλων των πρόσφατων καρτελών»</string>
     <!-- Title for showing a group item in the 'Jump back in' section of the new tab
         The first parameter is the search term that the user used. (for example: your search for "cat")-->
-    <string name="recent_tabs_search_term">Η αναζήτησή σας για «%1$s»</string>
+    <string moz:RemovedIn="105" name="recent_tabs_search_term" tools:ignore="UnusedResources">Η αναζήτησή σας για «%1$s»</string>
 
     <!-- Text for the number of tabs in a group in the 'Jump back in' section of the new tab
         %d is a placeholder for the number of sites in the group. This number will always be more than one. -->
-    <string name="recent_tabs_search_term_count_2">%d ιστότοποι</string>
+    <string moz:RemovedIn="105" name="recent_tabs_search_term_count_2" tools:ignore="UnusedResources">%d ιστότοποι</string>
 
     <!-- Text for button in synced tab card that opens synced tabs tray -->
     <string name="recent_tabs_see_all_synced_tabs_button_text">Προβολή όλων των συγχρονισμένων καρτελών</string>
     <!-- Accessibility description for device icon used for recent synced tab -->
     <string name="recent_tabs_synced_device_icon_content_description">Συγχρονισμένη συσκευή</string>
+    <!-- Text for the dropdown menu to remove a recent synced tab from the homescreen -->
+    <string name="recent_synced_tab_menu_item_remove">Αφαίρεση</string>
     <!-- Text for the menu button to remove a grouped highlight from the user's browsing history
          in the Recently visited section -->
     <string name="recent_tab_menu_item_remove">Αφαίρεση</string>
@@ -254,24 +267,51 @@
 
     <!-- Home onboarding -->
     <!-- Onboarding home screen dialog title text. The first parameter is the name of the application.-->
-    <string name="onboarding_home_screen_title_3">Τι νέο υπάρχει στο %1$s</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_title_3" tools:ignore="UnusedResources">Τι νέο υπάρχει στο %1$s</string>
     <!-- Onboarding home screen dialog description text. -->
-    <string name="onboarding_home_screen_description_2">Τώρα είναι ευκολότερο να επιστρέψετε εκεί όπου σταματήσατε.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_description_2" tools:ignore="UnusedResources">Τώρα είναι ευκολότερο να επιστρέψετε εκεί όπου σταματήσατε.</string>
     <!-- Onboarding home screen dialog title text for the home section. The first parameter is the name of the application.-->
-    <string name="onboarding_home_screen_section_home_title_3">Εξατομικευμένη αρχική σελίδα %1$s</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_home_title_3" tools:ignore="UnusedResources">Εξατομικευμένη αρχική σελίδα %1$s</string>
     <!-- Onboarding home screen dialog description text for the home section. -->
-    <string name="onboarding_home_screen_section_home_description_2">Μεταβείτε στις ανοικτές καρτέλες, τους σελιδοδείκτες και το ιστορικό περιήγησής σας.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_home_description_2" tools:ignore="UnusedResources">Μεταβείτε στις ανοικτές καρτέλες, τους σελιδοδείκτες και το ιστορικό περιήγησής σας.</string>
     <!-- Onboarding home screen dialog description text for the tab tray section. -->
-    <string name="onboarding_home_screen_section_cleaner_tab_tray_title_2">Σαφείς, οργανωμένες καρτέλες</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_cleaner_tab_tray_title_2" tools:ignore="UnusedResources">Σαφείς, οργανωμένες καρτέλες</string>
     <!-- Onboarding home screen dialog description text for the tab tray section. -->
-    <string name="onboarding_home_screen_section_cleaner_tab_tray_description_2">Κλείστε περιττές καρτέλες με τη βελτιωμένη διάταξη και το αυτόματο κλείσιμο καρτελών.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_cleaner_tab_tray_description_2" tools:ignore="UnusedResources">Κλείστε περιττές καρτέλες με τη βελτιωμένη διάταξη και το αυτόματο κλείσιμο καρτελών.</string>
     <!-- Onboarding home screen dialog description text for the history section. -->
-    <string name="onboarding_home_screen_section_useful_history_title_2">Πρόσφατες αναζητήσεις</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_useful_history_title_2" tools:ignore="UnusedResources">Πρόσφατες αναζητήσεις</string>
     <!-- Onboarding home screen dialog description text for the history section. -->
-    <string name="onboarding_home_screen_section_useful_history_description_2">Επισκεφθείτε ξανά τις τελευταίες αναζητήσεις σας από την αρχική σελίδα και τις καρτέλες σας.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_useful_history_description_2" tools:ignore="UnusedResources">Επισκεφθείτε ξανά τις τελευταίες αναζητήσεις σας από την αρχική σελίδα και τις καρτέλες σας.</string>
 
     <!-- Onboarding home screen popup dialog, shown on top of the Jump back in section. Firefox is intentionally hardcoded. -->
-    <string name="onboarding_home_screen_jump_back_contextual_hint" tools:ignore="UnusedResources">Η εξατομικευμένη αρχική σελίδα του Firefox διευκολύνει την επιστροφή στο σημείο που σταματήσατε. Βρείτε τις πρόσφατες καρτέλες, τους σελιδοδείκτες και τα αποτελέσματα αναζήτησής σας.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_jump_back_contextual_hint" tools:ignore="UnusedResources">Η εξατομικευμένη αρχική σελίδα του Firefox διευκολύνει την επιστροφή στο σημείο που σταματήσατε. Βρείτε τις πρόσφατες καρτέλες, τους σελιδοδείκτες και τα αποτελέσματα αναζήτησής σας.</string>
+
+    <!-- Onboarding home screen popup dialog, shown on top of the Jump back in section. -->
+    <string name="onboarding_home_screen_jump_back_contextual_hint_2">Γνωρίστε την εξατομικευμένη αρχική σας σελίδα. Οι πρόσφατες καρτέλες, οι σελιδοδείκτες και τα αποτελέσματα αναζήτησης θα εμφανίζονται εδώ.</string>
+    <!-- Home onboarding dialog welcome screen title text. -->
+    <string moz:RemovedIn="106" name="onboarding_home_welcome_title" tools:ignore="UnusedResources">Καλώς ορίσατε σε ένα ανεξάρτητο διαδίκτυο</string>
+    <!-- Home onboarding dialog welcome screen title text. -->
+    <string name="onboarding_home_welcome_title_2">Καλώς ορίσατε σε ένα πιο προσωπικό διαδίκτυο</string>
+    <!-- Home onboarding dialog welcome screen description text. -->
+    <string name="onboarding_home_welcome_description">Περισσότερα χρώματα. Ενισχυμένο απόρρητο. Η ίδια δέσμευση να βάζουμε τον άνθρωπο πάνω από το κέρδος.</string>
+    <!-- Home onboarding dialog sign into sync screen title text. -->
+    <string moz:RemovedIn="106" name="onboarding_home_sync_title_2" tools:ignore="UnusedResources">Εναλλαγή από τηλέφωνο σε υπολογιστή και αντίστροφα</string>
+    <!-- Home onboarding dialog sign into sync screen title text. -->
+    <string name="onboarding_home_sync_title_3">Η εναλλαγή οθονών είναι πιο εύκολη από ποτέ</string>
+    <!-- Home onboarding dialog sign into sync screen description text. -->
+    <string name="onboarding_home_sync_description">Συνεχίστε από εκεί που σταματήσατε, με καρτέλες από άλλες συσκευές στην αρχική σας σελίδα.</string>
+    <!-- Text for the button to continue the onboarding on the home onboarding dialog. -->
+    <string name="onboarding_home_get_started_button">Έναρξη</string>
+    <!-- Text for the button to navigate to the sync sign in screen on the home onboarding dialog. -->
+    <string name="onboarding_home_sign_in_button">Σύνδεση</string>
+    <!-- Text for the button to skip the onboarding on the home onboarding dialog. -->
+    <string name="onboarding_home_skip_button">Παράλειψη</string>
+
+    <!-- Onboarding home screen sync popup dialog message, shown on top of Recent Synced Tabs in the Jump back in section. -->
+    <string name="sync_cfr_message">Οι καρτέλες σας συγχρονίζονται! Συνεχίστε από εκεί που σταματήσατε στην άλλη συσκευή σας.</string>
+
+    <!-- Content description (not visible, for screen readers etc.): Close button for the home onboarding dialog -->
+    <string name="onboarding_home_content_description_close_button">Κλείσιμο</string>
 
     <!-- Search Widget -->
     <!-- Content description for searching with a widget. The first parameter is the name of the application.-->
@@ -363,8 +403,6 @@
     <!-- Preference for settings related to visual options -->
     <string name="preferences_customize">Προσαρμογή</string>
     <!-- Preference description for banner about signing in -->
-    <string moz:RemovedIn="104" name="preferences_sign_in_description" tools:ignore="UnusedResources">Συγχρονισμός σελιδοδεικτών, ιστορικού και άλλων δεδομένων με τον λογαριασμό Firefox σας</string>
-    <!-- Preference description for banner about signing in -->
     <string name="preferences_sign_in_description_2">Συνδεθείτε για να συγχρονίσετε τις καρτέλες, τους σελιδοδείκτες, τους κωδικούς πρόσβασης και πολλά άλλα.</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
     <string name="preferences_account_default_name">Λογαριασμός Firefox</string>
@@ -449,12 +487,36 @@
     <!-- Snackbar label for action to view selected wallpaper -->
     <string name="wallpaper_updated_snackbar_action">Προβολή</string>
 
+    <!-- Snackbar message for when wallpaper couldn't be downloaded -->
+    <string name="wallpaper_download_error_snackbar_message">Δεν ήταν δυνατή η λήψη ταπετσαρίας</string>
+    <!-- Snackbar label for action to retry downloading the wallpaper -->
+    <string name="wallpaper_download_error_snackbar_action">Δοκιμή ξανά</string>
+    <!-- Snackbar message for when wallpaper couldn't be selected because of the disk error -->
+    <string name="wallpaper_select_error_snackbar_message">Δεν ήταν δυνατή η αλλαγή ταπετσαρίας</string>
+    <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
+    <string name="wallpaper_learn_more">Μάθετε περισσότερα</string>
     <!-- Label for switch which toggles the "tap-to-switch" behavior on home screen logo -->
-    <string name="wallpaper_tap_to_change_switch_label_1">Αλλαγή ταπετσαρίας από το λογότυπο του Firefox στην αρχική σελίδα</string>
+    <string moz:removedIn="105" name="wallpaper_tap_to_change_switch_label_1" tools:ignore="UnusedResources">Αλλαγή ταπετσαρίας από το λογότυπο του Firefox στην αρχική σελίδα</string>
 
     <!-- This is the accessibility content description for the wallpapers functionality. Users are
     able to tap on the app logo in the home screen and can switch to different wallpapers by tapping. -->
-    <string name="wallpaper_logo_content_description">Λογότυπο Firefox - κουμπί αλλαγής ταπετσαρίας</string>
+    <string moz:removedIn="105" name="wallpaper_logo_content_description" tools:ignore="UnusedResources">Λογότυπο Firefox - κουμπί αλλαγής ταπετσαρίας</string>
+
+    <!-- Text for classic wallpapers title. The first parameter is the Firefox name. -->
+    <string name="wallpaper_classic_title">Κλασικό %s</string>
+    <!-- Text for limited edition wallpapers title. -->
+    <string name="wallpaper_limited_edition_title">Περιορισμένη έκδοση</string>
+
+    <!-- Description text for the limited edition wallpapers with learn more link. The first parameter is the learn more string defined in wallpaper_learn_more-->
+    <string name="wallpaper_limited_edition_description_with_learn_more">Η νέα συλλογή «Ανεξάρτητες φωνές». %s</string>
+    <!-- Description text for the limited edition wallpapers. -->
+    <string name="wallpaper_limited_edition_description">Η νέα συλλογή «Ανεξάρτητες φωνές».</string>
+    <!-- Wallpaper onboarding dialog header text. -->
+    <string name="wallpapers_onboarding_dialog_title_text">Δοκιμάστε μια πινελιά χρώματος</string>
+    <!-- Wallpaper onboarding dialog body text. -->
+    <string name="wallpapers_onboarding_dialog_body_text">Επιλέξτε μια ταπετσαρία ιδανική για εσάς.</string>
+    <!-- Wallpaper onboarding dialog learn more button text. The button navigates to the wallpaper settings screen. -->
+    <string name="wallpapers_onboarding_dialog_explore_more_button_text">Εξερευνήστε περισσότερες ταπετσαρίες</string>
 
     <!-- Add-on Installation from AMO-->
     <!-- Error displayed when user attempts to install an add-on from AMO (addons.mozilla.org) that is not supported -->
@@ -536,9 +598,6 @@
     <string name="preference_experiments_summary_2">Επιτρέπει στο Mozilla την εγκατάσταση και εκτέλεση μελετών</string>
 
     <!-- Turn On Sync Preferences -->
-    <!-- Header of the Turn on Sync preference view -->
-    <string moz:RemovedIn="104" name="preferences_sync" tools:ignore="UnusedResources">Ενεργοποίηση Sync</string>
-
     <!-- Header of the Sync and save your data preference view -->
     <string name="preferences_sync_2">Συγχρονισμός και αποθήκευση δεδομένων</string>
     <!-- Preference for reconnecting to FxA sync -->
@@ -629,9 +688,9 @@
     <!-- Option for a grid tab view -->
     <string name="tab_view_grid">Πλέγμα</string>
     <!-- Option for search term tab groups -->
-    <string name="tab_view_search_term_tab_groups">Αναζήτηση ομάδων</string>
+    <string moz:RemovedIn="105" name="tab_view_search_term_tab_groups" tools:ignore="UnusedResources">Αναζήτηση ομάδων</string>
     <!-- Summary text for search term tab groups -->
-    <string name="tab_view_search_term_tab_groups_summary">Ομαδοποίηση σχετικών ιστοτόπων</string>
+    <string moz:RemovedIn="105" name="tab_view_search_term_tab_groups_summary" tools:ignore="UnusedResources">Ομαδοποίηση σχετικών ιστοτόπων</string>
     <!-- Title of preference that allows a user to auto close tabs after a specified amount of time -->
     <string name="preferences_close_tabs">Κλείσιμο καρτελών</string>
     <!-- Option for auto closing tabs that will never auto close tabs, always allows user to manually close tabs -->
@@ -738,8 +797,6 @@
     <string name="open_tabs_menu">Άνοιγμα μενού καρτελών</string>
     <!-- Open tabs menu item to save tabs to collection -->
     <string name="tabs_menu_save_to_collection1">Αποθήκευση καρτελών στη συλλογή</string>
-    <!-- Content description (not visible, for screen readers etc.): Opens the tab menu when pressed -->
-    <string moz:RemovedIn="103" name="tab_menu" tools:ignore="UnusedResources">Μενού καρτελών</string>
     <!-- Text for the menu button to delete a collection -->
     <string name="collection_delete">Διαγραφή συλλογής</string>
     <!-- Text for the menu button to rename a collection -->
@@ -757,9 +814,6 @@
     <string name="delete_from_history">Διαγραφή από ιστορικό</string>
     <!-- Postfix for private WebApp titles, placeholder is replaced with app name -->
     <string name="pwa_site_controls_title_private">%1$s (Ιδιωτική λειτουργία)</string>
-
-    <!-- Title text for the normal tabs header in the tabs tray which are not part of any tab grouping. -->
-    <string name="tab_tray_header_title_1">Άλλες καρτέλες</string>
 
     <!-- History -->
     <!-- Text for the button to search all history -->
@@ -790,9 +844,16 @@
     <string name="history_empty_message">Δεν υπάρχει ιστορικό</string>
 
     <!-- Text for the button inside History screen that opens Synced History screen. History that is coming from other devices -->
-    <string name="history_synced_from_other_devices">Συγχρονισμένα από άλλες συσκευές</string>
+    <string moz:removedIn="105" name="history_synced_from_other_devices" tools:ignore="UnusedResources">Συγχρονισμένα από άλλες συσκευές</string>
     <!-- The page title for browsing history coming from other devices. -->
-    <string name="history_from_other_devices">Από άλλες συσκευές</string>
+    <string moz:removedIn="105" name="history_from_other_devices" tools:ignore="UnusedResources">Από άλλες συσκευές</string>
+
+    <!-- The synced history sign in dialog message -->
+    <string moz:removedIn="105" name="history_sign_in_message" tools:ignore="UnusedResources">Συνδεθείτε για να δείτε το ιστορικό από τις άλλες συσκευές σας.</string>
+    <!-- The synced history sign in dialog button text -->
+    <string moz:removedIn="105" name="history_sign_in_button" tools:ignore="UnusedResources">Σύνδεση</string>
+    <!-- The synced history sign in dialog create a new account link -->
+    <string moz:removedIn="105" name="history_sign_in_create_account" tools:ignore="UnusedResources"><![CDATA[<u>Ή δημιουργήστε έναν λογαριασμό Firefox για να ξεκινήσει ο συγχρονισμός</u>]]></string>
 
     <!-- Downloads -->
     <!-- Text for the snackbar to confirm that multiple downloads items have been removed -->
@@ -1021,6 +1082,8 @@
     <!-- Content description (not visible, for screen readers etc.):
         "Share" button. Opens the share menu when pressed. -->
     <string name="share_button_content_description">Κοινή χρήση</string>
+    <!-- Text for the Save to PDF feature in the share menu -->
+    <string name="share_save_to_pdf">Αποθήκευση ως PDF</string>
     <!-- Sub-header in the dialog to share a link to another sync device -->
     <string name="share_device_subheader">Αποστολή σε συσκευή</string>
     <!-- Sub-header in the dialog to share a link to an app from the full list -->
@@ -1032,9 +1095,11 @@
     <!-- Toast shown after copying link to clipboard -->
     <string name="toast_copy_link_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
     <!-- An option from the three dot menu to into sync -->
-    <string name="sync_menu_sign_in">Σύνδεση για συγχρονισμό</string>
+    <string moz:removedIn="107" name="sync_menu_sign_in" tools:ignore="UnusedResources">Σύνδεση για συγχρονισμό</string>
     <!-- An option from the share dialog to sign into sync -->
     <string name="sync_sign_in">Σύνδεση στο Sync</string>
+     <!-- An option from the three dot menu to sync and save data -->
+    <string name="sync_menu_sync_and_save_data">Συγχρονισμός και αποθήκευση δεδομένων</string>
     <!-- An option from the share dialog to send link to all other sync devices -->
     <string name="sync_send_to_all">Αποστολή σε όλες τις συσκευές</string>
     <!-- An option from the share dialog to reconnect to sync -->
@@ -1162,8 +1227,17 @@
     <!-- Action item in menu for the Delete browsing data on quit feature -->
     <string name="delete_browsing_data_on_quit_action">Έξοδος</string>
 
-    <!-- Dialog message to the user asking to delete browsing data. -->
-    <string name="delete_browsing_data_prompt_message">Αυτό θα διαγράψει όλα τα δεδομένα περιήγησής σας.</string>
+    <!-- Title text of a delete browsing data dialog. -->
+    <string name="delete_history_prompt_title">Χρονικό διάστημα διαγραφής</string>
+    <!-- Body text of a delete browsing data dialog. -->
+    <string name="delete_history_prompt_body">Διαγράφει το ιστορικό (και το συγχρονισμένο ιστορικό άλλων συσκευών), τα cookies και άλλα δεδομένα περιήγησης.</string>
+    <!-- Radio button in the delete browsing data dialog to delete history items for the last hour. -->
+    <string name="delete_history_prompt_button_last_hour">Τελευταία ώρα</string>
+    <!-- Radio button in the delete browsing data dialog to delete history items for today and yesterday. -->
+    <string name="delete_history_prompt_button_today_and_yesterday">Σήμερα και χθες</string>
+    <!-- Radio button in the delete browsing data dialog to delete all history. -->
+    <string name="delete_history_prompt_button_everything">Όλα</string>
+
     <!-- Dialog message to the user asking to delete browsing data. Parameter will be replaced by app name. -->
     <string name="delete_browsing_data_prompt_message_3">Το %s θα διαγράψει τα επιλεγμένα δεδομένα περιήγησης.</string>
     <!-- Text for the cancel button for the data deletion dialog -->
@@ -1176,8 +1250,8 @@
     <!-- Text for the snackbar to show the user that the deletion of browsing data is in progress -->
     <string name="deleting_browsing_data_in_progress">Διαγραφή δεδομένων περιήγησης…</string>
 
-    <!-- Dialog message to the user asking to delete all history items inside the opened group. -->
-    <string name="delete_history_group_prompt_message">Αυτό θα διαγράψει όλα τα στοιχεία.</string>
+    <!-- Dialog message to the user asking to delete all history items inside the opened group. Parameter will be replaced by a history group name. -->
+    <string name="delete_all_history_group_prompt_message">Διαγραφή όλων των ιστοτόπων στο «%s»</string>
     <!-- Text for the cancel button for the history group deletion dialog -->
     <string name="delete_history_group_prompt_cancel">Ακύρωση</string>
     <!-- Text for the allow button for the history group dialog -->
@@ -1188,20 +1262,34 @@
     <!-- Onboarding -->
     <!-- Text for onboarding welcome message
     The first parameter is the name of the app (e.g. Firefox Preview) -->
-    <string name="onboarding_header">Καλώς ορίσατε στο %s!</string>
+    <string moz:RemovedIn="106" name="onboarding_header" tools:ignore="UnusedResources">Καλώς ορίσατε στο %s!</string>
+    <!-- Text for onboarding welcome header. -->
+    <string name="onboarding_header_2">Καλώς ήρθατε σε ένα καλύτερο διαδίκτυο</string>
+    <!-- Text for the onboarding welcome message. -->
+    <string name="onboarding_message">Ένα πρόγραμμα περιήγησης που δημιουργήθηκε για τους ανθρώπους, όχι το κέρδος.</string>
     <!-- text for the Firefox account onboarding sign in card header. The word "Firefox" should not be translated -->
-    <string name="onboarding_account_sign_in_header_1">Συγχρονισμός Firefox μεταξύ συσκευών</string>
+    <string moz:removedIn="106" name="onboarding_account_sign_in_header_1" tools:ignore="UnusedResources">Συγχρονισμός Firefox μεταξύ συσκευών</string>
+    <!-- Text for the Firefox account onboarding sign in card header. -->
+    <string name="onboarding_account_sign_in_header">Συνεχίστε από εκεί που σταματήσατε</string>
     <!-- Text for the button to learn more about signing in to your Firefox account. The first parameter is the name of the application.-->
-    <string name="onboarding_manual_sign_in_description_2">Φέρτε σελιδοδείκτες, ιστορικό και κωδικούς πρόσβασης στο %1$s σε αυτήν τη συσκευή.</string>
+    <string moz:removedIn="106" name="onboarding_manual_sign_in_description_2" tools:ignore="UnusedResources">Φέρτε σελιδοδείκτες, ιστορικό και κωδικούς πρόσβασης στο %1$s σε αυτήν τη συσκευή.</string>
+    <!-- Text for the button to learn more about signing in to your Firefox account. -->
+    <string name="onboarding_manual_sign_in_description">Συγχρονίστε καρτέλες και κωδικούς πρόσβασης με τις συσκευές σας για απρόσκοπτη εναλλαγή οθονών.</string>
     <!-- text for the button to manually sign into Firefox account. -->
-    <string name="onboarding_firefox_account_sign_in_1">Εγγραφή</string>
+    <string moz:removedIn="106" name="onboarding_firefox_account_sign_in_1" tools:ignore="UnusedResources">Εγγραφή</string>
+    <!-- Text for the button to manually sign into Firefox account. -->
+    <string name="onboarding_firefox_account_sign_in">Σύνδεση</string>
     <!-- text to display in the snackbar once account is signed-in -->
     <string name="onboarding_firefox_account_sync_is_on">Το Sync είναι ενεργό</string>
 
     <!-- text for the tracking protection onboarding card header -->
-    <string name="onboarding_tracking_protection_header_3">Μόνιμη προστασία απορρήτου</string>
+    <string moz:removedIn="106" name="onboarding_tracking_protection_header_3" tools:ignore="UnusedResources">Μόνιμη προστασία απορρήτου</string>
+    <!-- Text for the tracking protection onboarding card header -->
+    <string name="onboarding_tracking_protection_header">Προστασία απορρήτου από προεπιλογή</string>
     <!-- text for the tracking protection card description. The first parameter is the name of the application.-->
-    <string name="onboarding_tracking_protection_description_4">Το %1$s εμποδίζει την καταγραφή της διαδικτυακής δραστηριότητάς σας από εταιρείες.</string>
+    <string moz:removedIn="106" name="onboarding_tracking_protection_description_4" tools:ignore="UnusedResources">Το %1$s εμποδίζει την καταγραφή της διαδικτυακής δραστηριότητάς σας από εταιρείες.</string>
+    <!-- Text for the tracking protection card description. -->
+    <string name="onboarding_tracking_protection_description">Η Ολική προστασία cookie εμποδίζει τη χρήση των cookies από ιχνηλάτες που σας καταγράφουν μεταξύ ιστοτόπων.</string>
     <!-- text for tracking protection radio button option for standard level of blocking -->
     <string name="onboarding_tracking_protection_standard_button_2">Τυπική (προεπιλογή)</string>
     <!-- text for standard blocking option button description -->
@@ -1213,15 +1301,23 @@
     <!-- text for the toolbar position card header  -->
     <string name="onboarding_toolbar_placement_header_1">Επιλογή τοποθεσίας γραμμής εργαλείων</string>
     <!-- text for the toolbar position card description -->
-    <string name="onboarding_toolbar_placement_description_1">Τοποθετήστε τη γραμμή εργαλείων σε κοντινή απόσταση. Κρατήστε την στο κάτω μέρος ή μετακινήστε την στο πάνω μέρος.</string>
+    <string moz:removedIn="106" name="onboarding_toolbar_placement_description_1" tools:ignore="UnusedResources">Τοποθετήστε τη γραμμή εργαλείων σε κοντινή απόσταση. Κρατήστε την στο κάτω μέρος ή μετακινήστε την στο πάνω μέρος.</string>
+    <!-- Text for the toolbar position card description -->
+    <string name="onboarding_toolbar_placement_description">Διατηρήστε τη στο κάτω μέρος ή μετακινήστε τη στο πάνω μέρος.</string>
     <!-- text for the privacy notice onboarding card header -->
-    <string name="onboarding_privacy_notice_header">Το απόρρητό σας</string>
+    <string moz:removedIn="106" name="onboarding_privacy_notice_header" tools:ignore="UnusedResources">Το απόρρητό σας</string>
+    <!-- Text for the privacy notice onboarding card header -->
+    <string name="onboarding_privacy_notice_header_1">Εσείς ελέγχετε τα δεδομένα σας</string>
     <!-- text for the privacy notice onboarding card description
     The first parameter is the name of the app (e.g. Firefox Preview) Substitute %s for long browser name. -->
-    <string name="onboarding_privacy_notice_description2">Έχουμε σχεδιάσει το %s έτσι, ώστε να ελέγχετε τι κοινοποιείτε στο διαδίκτυο και σε εμάς.</string>
+    <string moz:removedIn="106" name="onboarding_privacy_notice_description2" tools:ignore="UnusedResources">Έχουμε σχεδιάσει το %s έτσι, ώστε να ελέγχετε τι κοινοποιείτε στο διαδίκτυο και σε εμάς.</string>
+    <!-- Text for the privacy notice onboarding card description. -->
+    <string name="onboarding_privacy_notice_description">Το Firefox σάς επιτρέπει να ελέγχετε τι κοινοποιείτε στο διαδίκτυο και σε εμάς.</string>
     <!-- Text for the button to read the privacy notice -->
     <string name="onboarding_privacy_notice_read_button">Διαβάστε τη σημείωση απορρήτου μας</string>
 
+    <!-- Text for the conclusion onboarding message -->
+    <string name="onboarding_conclusion_header">Θέλετε να ανοίξετε ένα καταπληκτικό διαδίκτυο;</string>
     <!-- text for the button to finish onboarding -->
     <string name="onboarding_finish">Έναρξη περιήγησης</string>
 
@@ -1310,6 +1406,8 @@
     <string name="preference_enhanced_tracking_protection_custom_cookies_3">Όλα τα cookies τρίτων (πιθανή δυσλειτουργία ιστοτόπων)</string>
     <!-- Option for enhanced tracking protection for the custom protection settings for cookies-->
     <string name="preference_enhanced_tracking_protection_custom_cookies_4">Όλα τα cookies (προκαλεί δυσλειτουργία ιστοτόπων)</string>
+    <!-- Option for enhanced tracking protection for the custom protection settings for cookies-->
+    <string name="preference_enhanced_tracking_protection_custom_cookies_5">Απομόνωση cookies μεταξύ ιστοτόπων</string>
     <!-- Preference for enhanced tracking protection for the custom protection settings for tracking content -->
     <string name="preference_enhanced_tracking_protection_custom_tracking_content">Περιεχόμενο καταγραφής</string>
     <!-- Option for enhanced tracking protection for the custom protection settings for tracking content-->
@@ -1332,8 +1430,12 @@
     <string name="etp_social_media_trackers_description">Περιορίζει την ικανότητα των κοινωνικών δικτύων να παρακολουθούν τη δραστηριότητά σας στο διαδίκτυο.</string>
     <!-- Category of trackers (cross-site tracking cookies) that can be blocked by Enhanced Tracking Protection -->
     <string name="etp_cookies_title">Cookies καταγραφής μεταξύ ιστοτόπων</string>
+    <!-- Category of trackers (cross-site tracking cookies) that can be blocked by Enhanced Tracking Protection -->
+    <string name="etp_cookies_title_2">Cookies μεταξύ ιστοτόπων</string>
     <!-- Description of cross-site tracking cookies that can be blocked by Enhanced Tracking Protection -->
     <string name="etp_cookies_description">Αποκλείει τα cookies που χρησιμοποιούν οι εταιρείες διαφημίσεων και ανάλυσης για τη συλλογή δεδομένων περιήγησης σε πολλαπλούς ιστοτόπους.</string>
+    <!-- Description of cross-site tracking cookies that can be blocked by Enhanced Tracking Protection -->
+    <string name="etp_cookies_description_2">Η Ολική προστασία cookie απομονώνει τα cookies στον ιστότοπο που βρίσκεστε, ώστε να μην μπορούν να χρησιμοποιηθούν από ιχνηλάτες, όπως δίκτυα διαφημίσεων, για την καταγραφή της δραστηριότητάς σας.</string>
     <!-- Category of trackers (cryptominers) that can be blocked by Enhanced Tracking Protection -->
     <string name="etp_cryptominers_title">Cryptominer</string>
     <!-- Description of cryptominers that can be blocked by Enhanced Tracking Protection -->
@@ -1599,8 +1701,6 @@
     <string name="addresses_edit_address">Επεξεργασία διεύθυνσης</string>
     <!-- Title of the "Manage addresses" screen -->
     <string name="addresses_manage_addresses">Διαχείριση διευθύνσεων</string>
-    <!-- The header for the full name of an address -->
-    <string moz:removedIn="102" name="addresses_full_name" tools:ignore="UnusedResources">Πλήρες όνομα</string>
     <!-- The header for the first name of an address -->
     <string name="addresses_first_name">Όνομα</string>
     <!-- The header for the middle name of an address -->
@@ -1870,4 +1970,13 @@
     <string name="experiments_snackbar">Ενεργοποιήστε την τηλεμετρία για την αποστολή δεδομένων.</string>
     <!-- Snackbar button text to navigate to telemetry settings.-->
     <string name="experiments_snackbar_button">Μετάβαση στις ρυθμίσεις</string>
+    <string name="firefox_suggest_header">Προτάσεις Firefox</string>
+
+    <!-- Accessibility services actions labels. These will be appended to accessibility actions like "Double tap to.." but not by or applications but by services like Talkback. -->
+    <!-- Action label for elements that can be collapsed if interacting with them. Talkback will append this to say "Double tap to collapse". -->
+    <string name="a11y_action_label_collapse">σύμπτυξη</string>
+    <!-- Action label for elements that can be expanded if interacting with them. Talkback will append this to say "Double tap to expand". -->
+    <string name="a11y_action_label_expand">ανάπτυξη</string>
+    <!-- Action label for links to a website containing documentation about a wallpaper collection. Talkback will append this to say "Double tap to open link to learn more about this collection". -->
+    <string name="a11y_action_label_wallpaper_collection_learn_more">άνοιγμα συνδέσμου για περισσότερες πληροφορίες σχετικά με αυτήν τη συλλογή</string>
 </resources>
