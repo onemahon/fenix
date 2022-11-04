@@ -40,8 +40,10 @@
 
     <!-- Home - Recently saved bookmarks -->
     <!-- Title for the home screen section with recently saved bookmarks. -->
-    <string name="recent_bookmarks_title">Marcats recentament</string>
+    <string moz:RemovedIn="106" name="recent_bookmarks_title" tools:ignore="UnusedResources">Marcats recentament</string>
 
+    <!-- Title for the home screen section with recently saved bookmarks. -->
+    <string name="recently_saved_title">Salvats recentament</string>
     <!-- Content description for the button which navigates the user to show all of their saved bookmarks. -->
     <string name="recently_saved_show_all_content_description_2">Afichar totes los marcapaginas enregistrats</string>
 
@@ -72,6 +74,15 @@
     <string name="open_in_app_cfr_positive_button_text">Anar als paramètres</string>
     <!-- Text for the negative action button -->
     <string name="open_in_app_cfr_negative_button_text">Ignorar</string>
+
+    <!-- Content description for close button used in "contextual feature recommendation" (CFR) popups -->
+    <string name="cfr_dismiss_button_default_content_description">Ignorar</string>
+
+    <!-- Total cookie protection "contextual feature recommendation" (CFR) -->
+    <!-- Text for the message displayed in the contextual feature recommendation popup promoting the total cookie protection feature. -->
+    <string name="tcp_cfr_message">Nòstra foncionalitat la mai potenta de confidencialitat isola ja los traçadors intersites.</string>
+    <!-- Text displayed that links to website containing documentation about the "Total cookie protection" feature. -->
+    <string name="tcp_cfr_learn_more">Ne saber tocant la proteccion totala contra los cookies</string>
 
     <!-- Text for the info dialog when camera permissions have been denied but user tries to access a camera feature. -->
     <string name="camera_permissions_needed_message">Accès a la camèra necessari. Anatz als paramètres Android, tocatz Autorizacions puèi Autorizar.</string>
@@ -119,18 +130,13 @@
 
     <!-- Content description for the button which navigates the user to show all recent tabs in the tabs tray. -->
     <string name="recent_tabs_show_all_content_description_2">Afichar lo boton dels onglets recents</string>
-    <!-- Title for showing a group item in the 'Jump back in' section of the new tab
-        The first parameter is the search term that the user used. (for example: your search for "cat")-->
-    <string name="recent_tabs_search_term">Vòstre recèrca per \« %1$s \ »</string>
-
-    <!-- Text for the number of tabs in a group in the 'Jump back in' section of the new tab
-        %d is a placeholder for the number of sites in the group. This number will always be more than one. -->
-    <string name="recent_tabs_search_term_count_2">%d sites</string>
 
     <!-- Text for button in synced tab card that opens synced tabs tray -->
     <string name="recent_tabs_see_all_synced_tabs_button_text">Veire totes los onglets sincronizats</string>
     <!-- Accessibility description for device icon used for recent synced tab -->
     <string name="recent_tabs_synced_device_icon_content_description">Periferic sincronizat</string>
+    <!-- Text for the dropdown menu to remove a recent synced tab from the homescreen -->
+    <string name="recent_synced_tab_menu_item_remove">Levar</string>
     <!-- Text for the menu button to remove a grouped highlight from the user's browsing history
          in the Recently visited section -->
     <string name="recent_tab_menu_item_remove">Levar</string>
@@ -247,25 +253,52 @@
 
     <!-- Home onboarding -->
     <!-- Onboarding home screen dialog title text. The first parameter is the name of the application.-->
-    <string name="onboarding_home_screen_title_3">Qué de nòu dins %1$s</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_title_3" tools:ignore="UnusedResources">Qué de nòu dins %1$s</string>
     <!-- Onboarding home screen dialog description text. -->
-    <string name="onboarding_home_screen_description_2">Ara es mai facil de contunhar d’ont aviatz arrestat.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_description_2" tools:ignore="UnusedResources">Ara es mai facil de contunhar d’ont aviatz arrestat.</string>
     <!-- Onboarding home screen dialog title text for the home section. The first parameter is the name of the application.-->
-    <string name="onboarding_home_screen_section_home_title_3">Acuèlh personalizat de %1$s</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_home_title_3" tools:ignore="UnusedResources">Acuèlh personalizat de %1$s</string>
     <!-- Onboarding home screen dialog description text for the home section. -->
-    <string name="onboarding_home_screen_section_home_description_2">Accedissètz a vòstres onglets dobèrts, vòstres marcapaginas e vòstre istoric de navegacion.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_home_description_2" tools:ignore="UnusedResources">Accedissètz a vòstres onglets dobèrts, vòstres marcapaginas e vòstre istoric de navegacion.</string>
     <!-- Onboarding home screen dialog description text for the tab tray section. -->
-    <string name="onboarding_home_screen_section_cleaner_tab_tray_title_2">Onglets clars e organizats</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_cleaner_tab_tray_title_2" tools:ignore="UnusedResources">Onglets clars e organizats</string>
     <!-- Onboarding home screen dialog description text for the tab tray section. -->
-    <string name="onboarding_home_screen_section_cleaner_tab_tray_description_2">Eliminatz lo bazar amb un agençament melhorat e d’onglets que se tampan solets.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_cleaner_tab_tray_description_2" tools:ignore="UnusedResources">Eliminatz lo bazar amb un agençament melhorat e d’onglets que se tampan solets.</string>
     <!-- Onboarding home screen dialog description text for the history section. -->
-    <string name="onboarding_home_screen_section_useful_history_title_2">Recèrcas recentas</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_useful_history_title_2" tools:ignore="UnusedResources">Recèrcas recentas</string>
 
     <!-- Onboarding home screen dialog description text for the history section. -->
-    <string name="onboarding_home_screen_section_useful_history_description_2">Revisitatz vòstras darrièras recèrcas a partir de la pagina d’acuèlh e vòstres onglets.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_useful_history_description_2" tools:ignore="UnusedResources">Revisitatz vòstras darrièras recèrcas a partir de la pagina d’acuèlh e vòstres onglets.</string>
 
     <!-- Onboarding home screen popup dialog, shown on top of the Jump back in section. Firefox is intentionally hardcoded. -->
-    <string name="onboarding_home_screen_jump_back_contextual_hint" tools:ignore="UnusedResources">L’acuèlh personalizat de Firefox permet ara de tornar mai facilament ont èretz. Trapatz vòstres onglets, marcapaginas e recèrcas recentas.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_jump_back_contextual_hint" tools:ignore="UnusedResources">L’acuèlh personalizat de Firefox permet ara de tornar mai facilament ont èretz. Trapatz vòstres onglets, marcapaginas e recèrcas recentas.</string>
+
+    <!-- Onboarding home screen popup dialog, shown on top of the Jump back in section. -->
+    <string name="onboarding_home_screen_jump_back_contextual_hint_2">Fasètz coneissença amb vòstra pagina d’acuèlh personalizada. Onglets recents, marcapaginas e resultats de recèrca apreissaràn aicí.</string>
+    <!-- Home onboarding dialog welcome screen title text. -->
+    <string moz:RemovedIn="106" name="onboarding_home_welcome_title" tools:ignore="UnusedResources">La benvenguda a Internet independent</string>
+    <!-- Home onboarding dialog welcome screen title text. -->
+    <string name="onboarding_home_welcome_title_2">Benvengut dins un Internet mai personal</string>
+    <!-- Home onboarding dialog welcome screen description text. -->
+    <string name="onboarding_home_welcome_description">Mai de colors. Melhora confidencialitat. Meteis engatjament per las personas abans lo profièch.</string>
+    <!-- Home onboarding dialog sign into sync screen title text. -->
+    <string moz:RemovedIn="106" name="onboarding_home_sync_title_2" tools:ignore="UnusedResources">Basculatz del mobil a l’ordenador e invèrsament</string>
+    <!-- Home onboarding dialog sign into sync screen title text. -->
+    <string name="onboarding_home_sync_title_3">Bascular d’ecran es mai facil que jamai</string>
+    <!-- Home onboarding dialog sign into sync screen description text. -->
+    <string name="onboarding_home_sync_description">Tornatz ont èretz amb los onglets d’autres aparelhs que figuran ara per la pagina d’acuèlh.</string>
+    <!-- Text for the button to continue the onboarding on the home onboarding dialog. -->
+    <string name="onboarding_home_get_started_button">Per començar</string>
+    <!-- Text for the button to navigate to the sync sign in screen on the home onboarding dialog. -->
+    <string name="onboarding_home_sign_in_button">Connexion</string>
+    <!-- Text for the button to skip the onboarding on the home onboarding dialog. -->
+    <string name="onboarding_home_skip_button">Passar</string>
+
+    <!-- Onboarding home screen sync popup dialog message, shown on top of Recent Synced Tabs in the Jump back in section. -->
+    <string name="sync_cfr_message">Vòstre onglets son sincronizatz ! Tornatz ont èretz sus vòstre autre aparelh.</string>
+
+    <!-- Content description (not visible, for screen readers etc.): Close button for the home onboarding dialog -->
+    <string name="onboarding_home_content_description_close_button">Tampar</string>
 
     <!-- Search Widget -->
     <!-- Content description for searching with a widget. The first parameter is the name of the application.-->
@@ -356,8 +389,6 @@
     <!-- Preference for settings related to visual options -->
     <string name="preferences_customize">Personalizacion</string>
     <!-- Preference description for banner about signing in -->
-    <string moz:RemovedIn="104" name="preferences_sign_in_description" tools:ignore="UnusedResources">Sincronizatz los marcapaginas, l’istoric e encara mai amb vòstre compte Firefox.</string>
-    <!-- Preference description for banner about signing in -->
     <string name="preferences_sign_in_description_2">Connectatz-vos per sincronizar onglets, marcapaginas, senhals e plan mai encara.</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
     <string name="preferences_account_default_name">Compte Firefox</string>
@@ -444,12 +475,31 @@
     <!-- Snackbar label for action to view selected wallpaper -->
     <string name="wallpaper_updated_snackbar_action">Visualizar</string>
 
-    <!-- Label for switch which toggles the "tap-to-switch" behavior on home screen logo -->
-    <string name="wallpaper_tap_to_change_switch_label_1">Cambiar lo fons d’ecran en tocant lo logotipe de Firefox de la pagina iniciala</string>
+    <!-- Snackbar message for when wallpaper couldn't be downloaded -->
+    <string name="wallpaper_download_error_snackbar_message">Telecargament impossible del papièr pintrat</string>
+    <!-- Snackbar label for action to retry downloading the wallpaper -->
+    <string name="wallpaper_download_error_snackbar_action">Tornar ensajar</string>
+    <!-- Snackbar message for when wallpaper couldn't be selected because of the disk error -->
+    <string name="wallpaper_select_error_snackbar_message">Cambiament impossible del papièr pintrat</string>
+    <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
+    <string name="wallpaper_learn_more">Ne saber mai</string>
 
-    <!-- This is the accessibility content description for the wallpapers functionality. Users are
-    able to tap on the app logo in the home screen and can switch to different wallpapers by tapping. -->
-    <string name="wallpaper_logo_content_description">Logotipe Firefox - cambiar lo fons d’ecran, boton</string>
+    <!-- Text for classic wallpapers title. The first parameter is the Firefox name. -->
+    <string name="wallpaper_classic_title">%s classic</string>
+    <!-- Text for limited edition wallpapers title. -->
+    <string name="wallpaper_limited_edition_title">Edicion limitada</string>
+
+    <!-- Description text for the limited edition wallpapers with learn more link. The first parameter is the learn more string defined in wallpaper_learn_more-->
+    <string name="wallpaper_limited_edition_description_with_learn_more">La colleccion novèla de Voses independentas. %s</string>
+    <!-- Description text for the limited edition wallpapers. -->
+    <string name="wallpaper_limited_edition_description">La colleccion novèla de Voses independentas.</string>
+    <!-- Wallpaper onboarding dialog header text. -->
+    <string name="wallpapers_onboarding_dialog_title_text">Ensajatz de colors novèlas</string>
+
+    <!-- Wallpaper onboarding dialog body text. -->
+    <string name="wallpapers_onboarding_dialog_body_text">Causissètz un fons que vos representa.</string>
+    <!-- Wallpaper onboarding dialog learn more button text. The button navigates to the wallpaper settings screen. -->
+    <string name="wallpapers_onboarding_dialog_explore_more_button_text">Exploratz mai de fonzes d’ecran</string>
 
     <!-- Add-on Installation from AMO-->
     <!-- Error displayed when user attempts to install an add-on from AMO (addons.mozilla.org) that is not supported -->
@@ -533,8 +583,6 @@
     <string name="preference_experiments_summary_2">Permet a Mozilla d’installar e lançar estudis</string>
 
     <!-- Turn On Sync Preferences -->
-    <!-- Header of the Turn on Sync preference view -->
-    <string moz:RemovedIn="104" name="preferences_sync" tools:ignore="UnusedResources">Activar la sincronizacion</string>
     <!-- Header of the Sync and save your data preference view -->
     <string name="preferences_sync_2">Sincronizar e enregistrar vòstras donadas</string>
     <!-- Preference for reconnecting to FxA sync -->
@@ -625,10 +673,6 @@
     <string name="tab_view_list">Lista</string>
     <!-- Option for a grid tab view -->
     <string name="tab_view_grid">Grasilha</string>
-    <!-- Option for search term tab groups -->
-    <string name="tab_view_search_term_tab_groups">Cercar en grops</string>
-    <!-- Summary text for search term tab groups -->
-    <string name="tab_view_search_term_tab_groups_summary">Agropar los sites ligats</string>
     <!-- Title of preference that allows a user to auto close tabs after a specified amount of time -->
     <string name="preferences_close_tabs">Tampar los onglets</string>
     <!-- Option for auto closing tabs that will never auto close tabs, always allows user to manually close tabs -->
@@ -736,8 +780,6 @@
     <string name="open_tabs_menu">Dobrir lo menú dels onglets</string>
     <!-- Open tabs menu item to save tabs to collection -->
     <string name="tabs_menu_save_to_collection1">Enregistrar los onglets dins la colleccion</string>
-    <!-- Content description (not visible, for screen readers etc.): Opens the tab menu when pressed -->
-    <string moz:RemovedIn="103" name="tab_menu" tools:ignore="UnusedResources">Menú de l’onglet</string>
 
     <!-- Text for the menu button to delete a collection -->
     <string name="collection_delete">Suprimir la colleccion</string>
@@ -756,9 +798,6 @@
     <string name="delete_from_history">Suprimir de l’istoric</string>
     <!-- Postfix for private WebApp titles, placeholder is replaced with app name -->
     <string name="pwa_site_controls_title_private">%1$s (mòde privat)</string>
-
-    <!-- Title text for the normal tabs header in the tabs tray which are not part of any tab grouping. -->
-    <string name="tab_tray_header_title_1">Autres dubèrts</string>
 
     <!-- History -->
     <!-- Text for the button to search all history -->
@@ -787,11 +826,6 @@
 
     <!-- Text shown when no history exists -->
     <string name="history_empty_message">Cap d’istoric</string>
-
-    <!-- Text for the button inside History screen that opens Synced History screen. History that is coming from other devices -->
-    <string name="history_synced_from_other_devices">Sincronizat a partir d’autres periferics</string>
-    <!-- The page title for browsing history coming from other devices. -->
-    <string name="history_from_other_devices">A partir d’autres periferics</string>
 
     <!-- Downloads -->
     <!-- Text for the snackbar to confirm that multiple downloads items have been removed -->
@@ -1025,6 +1059,8 @@
     <!-- Content description (not visible, for screen readers etc.):
         "Share" button. Opens the share menu when pressed. -->
     <string name="share_button_content_description">Partejar</string>
+    <!-- Text for the Save to PDF feature in the share menu -->
+    <string name="share_save_to_pdf">Enregistrar en PDF</string>
     <!-- Sub-header in the dialog to share a link to another sync device -->
     <string name="share_device_subheader">Enviar al periferic</string>
     <!-- Sub-header in the dialog to share a link to an app from the full list -->
@@ -1036,9 +1072,11 @@
     <!-- Toast shown after copying link to clipboard -->
     <string name="toast_copy_link_to_clipboard">Copiat dins lo quichapapièrs</string>
     <!-- An option from the three dot menu to into sync -->
-    <string name="sync_menu_sign_in">Se connectar per sincronizar</string>
+    <string moz:removedIn="107" name="sync_menu_sign_in" tools:ignore="UnusedResources">Se connectar per sincronizar</string>
     <!-- An option from the share dialog to sign into sync -->
     <string name="sync_sign_in">Se connectar a Sync</string>
+     <!-- An option from the three dot menu to sync and save data -->
+    <string name="sync_menu_sync_and_save_data">Sincronizar e enregistrar las donadas</string>
     <!-- An option from the share dialog to send link to all other sync devices -->
     <string name="sync_send_to_all">Enviar a totes los periferics</string>
     <!-- An option from the share dialog to reconnect to sync -->
@@ -1122,17 +1160,17 @@
     <string name="url_copied">URL copiada</string>
 
     <!-- Sample text for accessibility font size -->
-    <string name="accessibility_text_size_sample_text_1">Aquò es un exemple de tèxt. Aquí es una demotracion de coma apareisserà lo tèxt quand aumentatz o redusissètz la talha amb aqueste paramètre.</string>
+    <string name="accessibility_text_size_sample_text_1">Aquò es un exemple de tèxt. Aquí es una demostracion de coma apareisserà lo tèxt quand aumentatz o redusissètz la talha amb aqueste paramètre.</string>
     <!-- Summary for Accessibility Text Size Scaling Preference -->
     <string name="preference_accessibility_text_size_summary">Va venir lo tèxt dels sites mai grand o mai pichon</string>
     <!-- Title for Accessibility Text Size Scaling Preference -->
-    <string name="preference_accessibility_font_size_title">Talha de poliça</string>
+    <string name="preference_accessibility_font_size_title">Talha de polissa</string>
 
     <!-- Title for Accessibility Text Automatic Size Scaling Preference -->
-    <string name="preference_accessibility_auto_size_2">Talha de poliça automatica</string>
+    <string name="preference_accessibility_auto_size_2">Talha de polissa automatica</string>
 
     <!-- Summary for Accessibility Text Automatic Size Scaling Preference -->
-    <string name="preference_accessibility_auto_size_summary">La talha de poliça correspondrà a la talha dels paramètres Android. Desactivatz aquesta opcion per gerir la talha de la poliça.</string>
+    <string name="preference_accessibility_auto_size_summary">La talha de polissa correspondrà a la talha dels paramètres Android. Desactivatz aquesta opcion per gerir la talha de la polissa.</string>
 
     <!-- Title for the Delete browsing data preference -->
     <string name="preferences_delete_browsing_data">Suprimir las donadas de navegacion</string>
@@ -1166,8 +1204,17 @@
     <!-- Action item in menu for the Delete browsing data on quit feature -->
     <string name="delete_browsing_data_on_quit_action">Sortir</string>
 
-    <!-- Dialog message to the user asking to delete browsing data. -->
-    <string name="delete_browsing_data_prompt_message">Aquò suprimirà totas las donadas de navegacion.</string>
+    <!-- Title text of a delete browsing data dialog. -->
+    <string name="delete_history_prompt_title">Periòde de suprimir</string>
+    <!-- Body text of a delete browsing data dialog. -->
+    <string name="delete_history_prompt_body">Suprimís l’istoric (inclutz l’istoric sincronizat d’autres aparelhs), los cookies e las autras donadas de navegacion.</string>
+    <!-- Radio button in the delete browsing data dialog to delete history items for the last hour. -->
+    <string name="delete_history_prompt_button_last_hour">La darrièra ora</string>
+    <!-- Radio button in the delete browsing data dialog to delete history items for today and yesterday. -->
+    <string name="delete_history_prompt_button_today_and_yesterday">Uèi e ièr</string>
+    <!-- Radio button in the delete browsing data dialog to delete all history. -->
+    <string name="delete_history_prompt_button_everything">Tot</string>
+
     <!-- Dialog message to the user asking to delete browsing data. Parameter will be replaced by app name. -->
     <string name="delete_browsing_data_prompt_message_3">%s suprimirà las donadas de navegacion seleccionadas.</string>
     <!-- Text for the cancel button for the data deletion dialog -->
@@ -1181,8 +1228,8 @@
     <!-- Text for the snackbar to show the user that the deletion of browsing data is in progress -->
     <string name="deleting_browsing_data_in_progress">Supression de las donadas de navegacion…</string>
 
-    <!-- Dialog message to the user asking to delete all history items inside the opened group. -->
-    <string name="delete_history_group_prompt_message">Aquò suprimirà totes los elements.</string>
+    <!-- Dialog message to the user asking to delete all history items inside the opened group. Parameter will be replaced by a history group name. -->
+    <string name="delete_all_history_group_prompt_message">Suprimir totes les sites dins « %s »</string>
     <!-- Text for the cancel button for the history group deletion dialog -->
     <string name="delete_history_group_prompt_cancel">Anullar</string>
     <!-- Text for the allow button for the history group dialog -->
@@ -1193,19 +1240,33 @@
     <!-- Onboarding -->
     <!-- Text for onboarding welcome message
     The first parameter is the name of the app (e.g. Firefox Preview) -->
-    <string name="onboarding_header">La benvenguda a %s !</string>
+    <string moz:RemovedIn="106" name="onboarding_header" tools:ignore="UnusedResources">La benvenguda a %s !</string>
+    <!-- Text for onboarding welcome header. -->
+    <string name="onboarding_header_2">Benvengut dins un Internet melhor</string>
+    <!-- Text for the onboarding welcome message. -->
+    <string name="onboarding_message">Un navegador concebut per las gents, pas per far de profièches.</string>
     <!-- text for the Firefox account onboarding sign in card header. The word "Firefox" should not be translated -->
-    <string name="onboarding_account_sign_in_header_1">Sincronizar Firefox entre vòstres aparelhs</string>
+    <string moz:removedIn="106" name="onboarding_account_sign_in_header_1" tools:ignore="UnusedResources">Sincronizar Firefox entre vòstres aparelhs</string>
+    <!-- Text for the Firefox account onboarding sign in card header. -->
+    <string name="onboarding_account_sign_in_header">Tornatz ont èretz</string>
     <!-- Text for the button to learn more about signing in to your Firefox account. The first parameter is the name of the application.-->
-    <string name="onboarding_manual_sign_in_description_2">Importatz vòstres marcapaginas, vòstre istoric e vòstres senhals dins %1$s sus aqueste aparelh.</string>
+    <string moz:removedIn="106" name="onboarding_manual_sign_in_description_2" tools:ignore="UnusedResources">Importatz vòstres marcapaginas, vòstre istoric e vòstres senhals dins %1$s sus aqueste aparelh.</string>
+    <!-- Text for the button to learn more about signing in to your Firefox account. -->
+    <string name="onboarding_manual_sign_in_description">Sincronizacion d’onglets e de senhals demest aparelhs per passar d’un ecran a l’autre sens relambi.</string>
     <!-- text for the button to manually sign into Firefox account. -->
-    <string name="onboarding_firefox_account_sign_in_1">Se connectar</string>
+    <string moz:removedIn="106" name="onboarding_firefox_account_sign_in_1" tools:ignore="UnusedResources">Se connectar</string>
+    <!-- Text for the button to manually sign into Firefox account. -->
+    <string name="onboarding_firefox_account_sign_in">Connexion</string>
     <!-- text to display in the snackbar once account is signed-in -->
     <string name="onboarding_firefox_account_sync_is_on">Sincro. activada</string>
     <!-- text for the tracking protection onboarding card header -->
-    <string name="onboarding_tracking_protection_header_3">Confidencialitat totjorn renfortida</string>
+    <string moz:removedIn="106" name="onboarding_tracking_protection_header_3" tools:ignore="UnusedResources">Confidencialitat totjorn renfortida</string>
+    <!-- Text for the tracking protection onboarding card header -->
+    <string name="onboarding_tracking_protection_header">Proteccion de la vida privada per defaut</string>
     <!-- text for the tracking protection card description. The first parameter is the name of the application.-->
-    <string name="onboarding_tracking_protection_description_4">%1$s empacha automaticament las entrepresas de vos pistar secrètament pel web.</string>
+    <string moz:removedIn="106" name="onboarding_tracking_protection_description_4" tools:ignore="UnusedResources">%1$s empacha automaticament las entrepresas de vos pistar secrètament pel web.</string>
+    <!-- Text for the tracking protection card description. -->
+    <string name="onboarding_tracking_protection_description">Embarcant una proteccion totala contra los cookies per empachar los traçadors d’utilizar de cookies per vos pistar de site en site.</string>
     <!-- text for tracking protection radio button option for standard level of blocking -->
     <string name="onboarding_tracking_protection_standard_button_2">Estandard (per defaut)</string>
     <!-- text for standard blocking option button description -->
@@ -1217,15 +1278,23 @@
     <!-- text for the toolbar position card header  -->
     <string name="onboarding_toolbar_placement_header_1">Causissètz ont conhar la barra d’aisinas</string>
     <!-- text for the toolbar position card description -->
-    <string name="onboarding_toolbar_placement_description_1">Plaçatz la barra d’aisinas a portada de man. Daissatz-la enbàs o ennaut.</string>
+    <string moz:removedIn="106" name="onboarding_toolbar_placement_description_1" tools:ignore="UnusedResources">Plaçatz la barra d’aisinas a portada de man. Daissatz-la enbàs o ennaut.</string>
+    <!-- Text for the toolbar position card description -->
+    <string name="onboarding_toolbar_placement_description">Gardatz-la enbàs o desplaçatz-la ennaut.</string>
     <!-- text for the privacy notice onboarding card header -->
-    <string name="onboarding_privacy_notice_header">Vòstra vida privada</string>
+    <string moz:removedIn="106" name="onboarding_privacy_notice_header" tools:ignore="UnusedResources">Vòstra vida privada</string>
+    <!-- Text for the privacy notice onboarding card header -->
+    <string name="onboarding_privacy_notice_header_1">Contrarotlatz vòstras donadas</string>
     <!-- text for the privacy notice onboarding card description
     The first parameter is the name of the app (e.g. Firefox Preview) Substitute %s for long browser name. -->
-    <string name="onboarding_privacy_notice_description2">Concebèrem %s per vos donar lo contraròtle de çò que partejatz en linha e çò que partejatz amb nosautres.</string>
+    <string moz:removedIn="106" name="onboarding_privacy_notice_description2" tools:ignore="UnusedResources">Concebèrem %s per vos donar lo contraròtle de çò que partejatz en linha e çò que partejatz amb nosautres.</string>
+    <!-- Text for the privacy notice onboarding card description. -->
+    <string name="onboarding_privacy_notice_description">Firefox vos dòna lo contraròtle de çò que partejatz en linha e çò que partejatz amb nosautres.</string>
     <!-- Text for the button to read the privacy notice -->
     <string name="onboarding_privacy_notice_read_button">Legissètz nòstra politica de confidencialitat</string>
 
+    <!-- Text for the conclusion onboarding message -->
+    <string name="onboarding_conclusion_header">A punt per descobrir un Internet de pas creire ?</string>
     <!-- text for the button to finish onboarding -->
     <string name="onboarding_finish">Començar de navegar</string>
 
@@ -1313,6 +1382,8 @@
     <string name="preference_enhanced_tracking_protection_custom_cookies_3">Totes los cookies tèrces (d’unes sites pòdon quitar de foncionar)</string>
     <!-- Option for enhanced tracking protection for the custom protection settings for cookies-->
     <string name="preference_enhanced_tracking_protection_custom_cookies_4">Totes los cookies (pòt arribar que d’unes sites quitan de foncionar)</string>
+    <!-- Option for enhanced tracking protection for the custom protection settings for cookies-->
+    <string name="preference_enhanced_tracking_protection_custom_cookies_5">Isolar los cookies intersites</string>
     <!-- Preference for enhanced tracking protection for the custom protection settings for tracking content -->
     <string name="preference_enhanced_tracking_protection_custom_tracking_content">Contengut utilizat pel seguiment</string>
 
@@ -1336,8 +1407,12 @@
     <string name="etp_social_media_trackers_description">Limita la capacitat dels malhums socials de seguir vòstra activitat en linha.</string>
     <!-- Category of trackers (cross-site tracking cookies) that can be blocked by Enhanced Tracking Protection -->
     <string name="etp_cookies_title">Cookies de seguiment entre sites</string>
+    <!-- Category of trackers (cross-site tracking cookies) that can be blocked by Enhanced Tracking Protection -->
+    <string name="etp_cookies_title_2">Cookies intersites</string>
     <!-- Description of cross-site tracking cookies that can be blocked by Enhanced Tracking Protection -->
     <string name="etp_cookies_description">Bloca los cookies que los malhums publicitaris e las societats d’analisi de donadas utilizan per compilar vòstras donadas de navegacion sus mantun site.</string>
+    <!-- Description of cross-site tracking cookies that can be blocked by Enhanced Tracking Protection -->
+    <string name="etp_cookies_description_2">La proteccion totala contra los cookies los isola al site ont vos trobatz, doncas los traçadors los pòdon pas utilizar per vos pistar entres sites.</string>
     <!-- Category of trackers (cryptominers) that can be blocked by Enhanced Tracking Protection -->
     <string name="etp_cryptominers_title">Minaires de criptomonedas</string>
     <!-- Description of cryptominers that can be blocked by Enhanced Tracking Protection -->
@@ -1608,8 +1683,6 @@
     <string name="addresses_edit_address">Modificar l’adreça</string>
     <!-- Title of the "Manage addresses" screen -->
     <string name="addresses_manage_addresses">Gestion de las adreças</string>
-    <!-- The header for the full name of an address -->
-    <string moz:removedIn="102" name="addresses_full_name" tools:ignore="UnusedResources">Nom complèt</string>
     <!-- The header for the first name of an address -->
     <string name="addresses_first_name">Pichon nom</string>
     <!-- The header for the middle name of an address -->
@@ -1879,4 +1952,13 @@
     <string name="experiments_snackbar">Activar la telemetria per enviar de donadas</string>
     <!-- Snackbar button text to navigate to telemetry settings.-->
     <string name="experiments_snackbar_button">Anar als paramètres</string>
+    <string name="firefox_suggest_header">Firefox suggerís</string>
+
+    <!-- Accessibility services actions labels. These will be appended to accessibility actions like "Double tap to.." but not by or applications but by services like Talkback. -->
+    <!-- Action label for elements that can be collapsed if interacting with them. Talkback will append this to say "Double tap to collapse". -->
+    <string name="a11y_action_label_collapse">plegar</string>
+    <!-- Action label for elements that can be expanded if interacting with them. Talkback will append this to say "Double tap to expand". -->
+    <string name="a11y_action_label_expand">desplegar</string>
+    <!-- Action label for links to a website containing documentation about a wallpaper collection. Talkback will append this to say "Double tap to open link to learn more about this collection". -->
+    <string name="a11y_action_label_wallpaper_collection_learn_more">dobrir lo ligam per ne saber mai tocant aquesta colleccion</string>
 </resources>
