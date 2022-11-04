@@ -41,7 +41,9 @@
 
     <!-- Home - Recently saved bookmarks -->
     <!-- Title for the home screen section with recently saved bookmarks. -->
-    <string name="recent_bookmarks_title">Ostatnio dodane zakładki</string>
+    <string moz:RemovedIn="106" name="recent_bookmarks_title" tools:ignore="UnusedResources">Ostatnio dodane zakładki</string>
+    <!-- Title for the home screen section with recently saved bookmarks. -->
+    <string name="recently_saved_title">Ostatnio zachowane</string>
     <!-- Content description for the button which navigates the user to show all of their saved bookmarks. -->
     <string name="recently_saved_show_all_content_description_2">Wyświetl wszystkie dodane zakładki</string>
 
@@ -74,6 +76,15 @@
     <string name="open_in_app_cfr_positive_button_text">Przejdź do ustawień</string>
     <!-- Text for the negative action button -->
     <string name="open_in_app_cfr_negative_button_text">Zamknij</string>
+
+    <!-- Content description for close button used in "contextual feature recommendation" (CFR) popups -->
+    <string name="cfr_dismiss_button_default_content_description">Zamknij</string>
+
+    <!-- Total cookie protection "contextual feature recommendation" (CFR) -->
+    <!-- Text for the message displayed in the contextual feature recommendation popup promoting the total cookie protection feature. -->
+    <string name="tcp_cfr_message">Nasza najpotężniejsza funkcja ochrony prywatności w historii izoluje elementy śledzące między witrynami.</string>
+    <!-- Text displayed that links to website containing documentation about the "Total cookie protection" feature. -->
+    <string name="tcp_cfr_learn_more">Więcej informacji o całkowitej ochronie ciasteczek</string>
 
     <!-- Text for the info dialog when camera permissions have been denied but user tries to access a camera feature. -->
     <string name="camera_permissions_needed_message">Wymagany jest dostęp do aparatu. Przejdź do ustawień Androida, stuknij „Uprawnienia” i stuknij „Zezwól”.</string>
@@ -121,16 +132,18 @@
     <string name="recent_tabs_show_all_content_description_2">Przycisk wyświetlania wszystkich ostatnich kart</string>
     <!-- Title for showing a group item in the 'Jump back in' section of the new tab
         The first parameter is the search term that the user used. (for example: your search for "cat")-->
-    <string name="recent_tabs_search_term">Wyszukiwanie „%1$s”</string>
+    <string moz:RemovedIn="105" name="recent_tabs_search_term" tools:ignore="UnusedResources">Wyszukiwanie „%1$s”</string>
 
     <!-- Text for the number of tabs in a group in the 'Jump back in' section of the new tab
         %d is a placeholder for the number of sites in the group. This number will always be more than one. -->
-    <string name="recent_tabs_search_term_count_2">Witryny: %d</string>
+    <string moz:RemovedIn="105" name="recent_tabs_search_term_count_2" tools:ignore="UnusedResources">Witryny: %d</string>
 
     <!-- Text for button in synced tab card that opens synced tabs tray -->
     <string name="recent_tabs_see_all_synced_tabs_button_text">Wszystkie karty z innych urządzeń</string>
     <!-- Accessibility description for device icon used for recent synced tab -->
     <string name="recent_tabs_synced_device_icon_content_description">Synchronizowane urządzenie</string>
+    <!-- Text for the dropdown menu to remove a recent synced tab from the homescreen -->
+    <string name="recent_synced_tab_menu_item_remove">Usuń</string>
     <!-- Text for the menu button to remove a grouped highlight from the user's browsing history
          in the Recently visited section -->
     <string name="recent_tab_menu_item_remove">Usuń</string>
@@ -249,24 +262,47 @@
 
     <!-- Home onboarding -->
     <!-- Onboarding home screen dialog title text. The first parameter is the name of the application.-->
-    <string name="onboarding_home_screen_title_3">Co nowego w przeglądarce %1$s</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_title_3" tools:ignore="UnusedResources">Co nowego w przeglądarce %1$s</string>
     <!-- Onboarding home screen dialog description text. -->
-    <string name="onboarding_home_screen_description_2">Teraz łatwiej jest kontynuować od miejsca, w którym skończono.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_description_2" tools:ignore="UnusedResources">Teraz łatwiej jest kontynuować od miejsca, w którym skończono.</string>
     <!-- Onboarding home screen dialog title text for the home section. The first parameter is the name of the application.-->
-    <string name="onboarding_home_screen_section_home_title_3">Spersonalizowana strona startowa przeglądarki %1$s</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_home_title_3" tools:ignore="UnusedResources">Spersonalizowana strona startowa przeglądarki %1$s</string>
     <!-- Onboarding home screen dialog description text for the home section. -->
-    <string name="onboarding_home_screen_section_home_description_2">Szybko przejdź do otwartych kart, zakładek i historii przeglądania.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_home_description_2" tools:ignore="UnusedResources">Szybko przejdź do otwartych kart, zakładek i historii przeglądania.</string>
     <!-- Onboarding home screen dialog description text for the tab tray section. -->
-    <string name="onboarding_home_screen_section_cleaner_tab_tray_title_2">Przejrzyste, uporządkowane karty</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_cleaner_tab_tray_title_2" tools:ignore="UnusedResources">Przejrzyste, uporządkowane karty</string>
     <!-- Onboarding home screen dialog description text for the tab tray section. -->
-    <string name="onboarding_home_screen_section_cleaner_tab_tray_description_2">Pozbądź się bałaganu w kartach dzięki ulepszonemu układowi i automatycznemu zamykaniu kart. </string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_cleaner_tab_tray_description_2" tools:ignore="UnusedResources">Pozbądź się bałaganu w kartach dzięki ulepszonemu układowi i automatycznemu zamykaniu kart. </string>
     <!-- Onboarding home screen dialog description text for the history section. -->
-    <string name="onboarding_home_screen_section_useful_history_title_2">Ostatnie wyszukiwania</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_useful_history_title_2" tools:ignore="UnusedResources">Ostatnie wyszukiwania</string>
     <!-- Onboarding home screen dialog description text for the history section. -->
-    <string name="onboarding_home_screen_section_useful_history_description_2">Wróć do swoich ostatnich wyszukiwań na stronie startowej i w kartach.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_section_useful_history_description_2" tools:ignore="UnusedResources">Wróć do swoich ostatnich wyszukiwań na stronie startowej i w kartach.</string>
 
     <!-- Onboarding home screen popup dialog, shown on top of the Jump back in section. Firefox is intentionally hardcoded. -->
-    <string name="onboarding_home_screen_jump_back_contextual_hint" tools:ignore="UnusedResources">Spersonalizowana strona startowa Firefoksa ułatwia teraz kontynuowanie od miejsca, w którym skończono. Znajdź swoje ostatnie karty, zakładki i wyniki wyszukiwania.</string>
+    <string moz:RemovedIn="106" name="onboarding_home_screen_jump_back_contextual_hint" tools:ignore="UnusedResources">Spersonalizowana strona startowa Firefoksa ułatwia teraz kontynuowanie od miejsca, w którym skończono. Znajdź swoje ostatnie karty, zakładki i wyniki wyszukiwania.</string>
+
+    <!-- Onboarding home screen popup dialog, shown on top of the Jump back in section. -->
+    <string name="onboarding_home_screen_jump_back_contextual_hint_2">Poznaj swoją spersonalizowaną stronę startową. Tutaj będą wyświetlane ostatnie karty, zakładki i wyniki wyszukiwania.</string>
+    <!-- Home onboarding dialog welcome screen title text. -->
+    <string moz:RemovedIn="106" name="onboarding_home_welcome_title" tools:ignore="UnusedResources">Witamy w niezależnym Internecie</string>
+    <!-- Home onboarding dialog welcome screen title text. -->
+    <string name="onboarding_home_welcome_title_2">Witamy w bardziej spersonalizowanym Internecie</string>
+    <!-- Home onboarding dialog welcome screen description text. -->
+    <string name="onboarding_home_welcome_description">Więcej kolorów. Większa prywatność. Stawianie ludzi ponad zyski — bez zmian.</string>
+    <!-- Home onboarding dialog sign into sync screen title text. -->
+    <string moz:RemovedIn="106" name="onboarding_home_sync_title_2" tools:ignore="UnusedResources">Przełączaj się z telefonu na laptopa i z powrotem</string>
+    <!-- Home onboarding dialog sign into sync screen title text. -->
+    <string name="onboarding_home_sync_title_3">Przechodzenie między urządzeniami jest łatwiejsze niż kiedykolwiek</string>
+    <!-- Home onboarding dialog sign into sync screen description text. -->
+    <string name="onboarding_home_sync_description">Kontynuuj w tym samym miejscu, korzystając z kart z innych urządzeń, które teraz są na stronie startowej.</string>
+    <!-- Text for the button to continue the onboarding on the home onboarding dialog. -->
+    <string name="onboarding_home_get_started_button">Pierwsze kroki</string>
+    <!-- Text for the button to navigate to the sync sign in screen on the home onboarding dialog. -->
+    <string name="onboarding_home_sign_in_button">Zaloguj się</string>
+    <!-- Text for the button to skip the onboarding on the home onboarding dialog. -->
+    <string name="onboarding_home_skip_button">Pomiń</string>
+    <!-- Onboarding home screen sync popup dialog message, shown on top of Recent Synced Tabs in the Jump back in section. -->
+    <string name="sync_cfr_message">Twoje karty są synchronizowane! Kontynuuj w tym samym miejscu, co na drugim urządzeniu.</string>
 
     <!-- Search Widget -->
     <!-- Content description for searching with a widget. The first parameter is the name of the application.-->
@@ -356,8 +392,6 @@
     <!-- Preference for settings related to visual options -->
     <string name="preferences_customize">Dostosuj</string>
     <!-- Preference description for banner about signing in -->
-    <string moz:RemovedIn="104" name="preferences_sign_in_description" tools:ignore="UnusedResources">Synchronizuj zakładki, historię i nie tylko za pomocą konta Firefoksa</string>
-    <!-- Preference description for banner about signing in -->
     <string name="preferences_sign_in_description_2">Zaloguj się i synchronizuj karty, zakładki, hasła i więcej.</string>
     <!-- Preference shown instead of account display name while account profile information isn't available yet. -->
     <string name="preferences_account_default_name">Konto Firefoksa</string>
@@ -443,12 +477,35 @@
     <string name="wallpaper_updated_snackbar_message">Zmieniono tapetę</string>
     <!-- Snackbar label for action to view selected wallpaper -->
     <string name="wallpaper_updated_snackbar_action">Pokaż</string>
+    <!-- Snackbar message for when wallpaper couldn't be downloaded -->
+    <string name="wallpaper_download_error_snackbar_message">Nie udało się pobrać tapety</string>
+    <!-- Snackbar label for action to retry downloading the wallpaper -->
+    <string name="wallpaper_download_error_snackbar_action">Spróbuj ponownie</string>
+    <!-- Snackbar message for when wallpaper couldn't be selected because of the disk error -->
+    <string name="wallpaper_select_error_snackbar_message">Nie udało się zmienić tapety</string>
+    <!-- Text displayed that links to website containing documentation about the "Limited Edition" wallpapers. -->
+    <string name="wallpaper_learn_more">Więcej informacji</string>
     <!-- Label for switch which toggles the "tap-to-switch" behavior on home screen logo -->
-    <string name="wallpaper_tap_to_change_switch_label_1">Zmień tapetę, stukając logo na stronie startowej Firefoksa</string>
+    <string moz:removedIn="105" name="wallpaper_tap_to_change_switch_label_1" tools:ignore="UnusedResources">Zmień tapetę, stukając logo na stronie startowej Firefoksa</string>
 
     <!-- This is the accessibility content description for the wallpapers functionality. Users are
     able to tap on the app logo in the home screen and can switch to different wallpapers by tapping. -->
-    <string name="wallpaper_logo_content_description">Logo Firefoksa — zmień tapetę, przycisk</string>
+    <string moz:removedIn="105" name="wallpaper_logo_content_description" tools:ignore="UnusedResources">Logo Firefoksa — zmień tapetę, przycisk</string>
+
+    <!-- Text for classic wallpapers title. The first parameter is the Firefox name. -->
+    <string name="wallpaper_classic_title">Klasyczny %s</string>
+    <!-- Text for limited edition wallpapers title. -->
+    <string name="wallpaper_limited_edition_title">Edycja limitowana</string>
+    <!-- Description text for the limited edition wallpapers with learn more link. The first parameter is the learn more string defined in wallpaper_learn_more-->
+    <string name="wallpaper_limited_edition_description_with_learn_more">Nowa kolekcja „Niezależne głosy”. %s</string>
+    <!-- Description text for the limited edition wallpapers. -->
+    <string name="wallpaper_limited_edition_description">Nowa kolekcja „Niezależne głosy”.</string>
+    <!-- Wallpaper onboarding dialog header text. -->
+    <string name="wallpapers_onboarding_dialog_title_text">Wypróbuj odrobiny koloru</string>
+    <!-- Wallpaper onboarding dialog body text. -->
+    <string name="wallpapers_onboarding_dialog_body_text">Wybierz tapetę, która do Ciebie pasuje.</string>
+    <!-- Wallpaper onboarding dialog learn more button text. The button navigates to the wallpaper settings screen. -->
+    <string name="wallpapers_onboarding_dialog_explore_more_button_text">Odkrywaj więcej tapet</string>
 
     <!-- Add-on Installation from AMO-->
     <!-- Error displayed when user attempts to install an add-on from AMO (addons.mozilla.org) that is not supported -->
@@ -532,8 +589,6 @@
     <string name="preference_experiments_summary_2">Pozwala Mozilli instalować i wykonywać badania.</string>
 
     <!-- Turn On Sync Preferences -->
-    <!-- Header of the Turn on Sync preference view -->
-    <string moz:RemovedIn="104" name="preferences_sync" tools:ignore="UnusedResources">Włącz synchronizację</string>
     <!-- Header of the Sync and save your data preference view -->
     <string name="preferences_sync_2">Synchronizuj i zachowuj dane</string>
     <!-- Preference for reconnecting to FxA sync -->
@@ -624,9 +679,9 @@
     <!-- Option for a grid tab view -->
     <string name="tab_view_grid">Siatka</string>
     <!-- Option for search term tab groups -->
-    <string name="tab_view_search_term_tab_groups">Grupy wyszukiwań</string>
+    <string moz:RemovedIn="105" name="tab_view_search_term_tab_groups" tools:ignore="UnusedResources">Grupy wyszukiwań</string>
     <!-- Summary text for search term tab groups -->
-    <string name="tab_view_search_term_tab_groups_summary">Grupuje powiązane witryny</string>
+    <string moz:RemovedIn="105" name="tab_view_search_term_tab_groups_summary" tools:ignore="UnusedResources">Grupuje powiązane witryny</string>
     <!-- Title of preference that allows a user to auto close tabs after a specified amount of time -->
     <string name="preferences_close_tabs">Zamykaj karty</string>
     <!-- Option for auto closing tabs that will never auto close tabs, always allows user to manually close tabs -->
@@ -731,8 +786,6 @@
     <string name="open_tabs_menu">Menu otwartych kart</string>
     <!-- Open tabs menu item to save tabs to collection -->
     <string name="tabs_menu_save_to_collection1">Zachowaj karty w kolekcji</string>
-    <!-- Content description (not visible, for screen readers etc.): Opens the tab menu when pressed -->
-    <string moz:RemovedIn="103" name="tab_menu" tools:ignore="UnusedResources">Menu karty</string>
     <!-- Text for the menu button to delete a collection -->
     <string name="collection_delete">Usuń kolekcję</string>
     <!-- Text for the menu button to rename a collection -->
@@ -752,9 +805,6 @@
     <string name="delete_from_history">Usuń z historii</string>
     <!-- Postfix for private WebApp titles, placeholder is replaced with app name -->
     <string name="pwa_site_controls_title_private">%1$s (tryb prywatny)</string>
-
-    <!-- Title text for the normal tabs header in the tabs tray which are not part of any tab grouping. -->
-    <string name="tab_tray_header_title_1">Pozostałe karty</string>
 
     <!-- History -->
     <!-- Text for the button to search all history -->
@@ -785,9 +835,16 @@
     <string name="history_empty_message">Nie ma jeszcze historii</string>
 
     <!-- Text for the button inside History screen that opens Synced History screen. History that is coming from other devices -->
-    <string name="history_synced_from_other_devices">Z innych urządzeń</string>
+    <string moz:removedIn="105" name="history_synced_from_other_devices" tools:ignore="UnusedResources">Z innych urządzeń</string>
     <!-- The page title for browsing history coming from other devices. -->
-    <string name="history_from_other_devices">Z innych urządzeń</string>
+    <string moz:removedIn="105" name="history_from_other_devices" tools:ignore="UnusedResources">Z innych urządzeń</string>
+
+    <!-- The synced history sign in dialog message -->
+    <string moz:removedIn="105" name="history_sign_in_message" tools:ignore="UnusedResources">Zaloguj się, aby wyświetlić historię zsynchronizowaną z innych urządzeń.</string>
+    <!-- The synced history sign in dialog button text -->
+    <string moz:removedIn="105" name="history_sign_in_button" tools:ignore="UnusedResources">Zaloguj się</string>
+    <!-- The synced history sign in dialog create a new account link -->
+    <string moz:removedIn="105" name="history_sign_in_create_account" tools:ignore="UnusedResources"><![CDATA[<u>Lub utwórz konto Firefoksa, aby rozpocząć synchronizację</u>]]></string>
 
     <!-- Downloads -->
     <!-- Text for the snackbar to confirm that multiple downloads items have been removed -->
@@ -1156,8 +1213,17 @@
     <!-- Action item in menu for the Delete browsing data on quit feature -->
     <string name="delete_browsing_data_on_quit_action">Zakończ</string>
 
-    <!-- Dialog message to the user asking to delete browsing data. -->
-    <string name="delete_browsing_data_prompt_message">Spowoduje to usunięcie wszystkich danych przeglądania.</string>
+    <!-- Title text of a delete browsing data dialog. -->
+    <string name="delete_history_prompt_title">Okres do usunięcia</string>
+    <!-- Body text of a delete browsing data dialog. -->
+    <string name="delete_history_prompt_body">Usuwa historię (łącznie z historią zsynchronizowaną z innych urządzeń), ciasteczka i inne dane przeglądania.</string>
+    <!-- Radio button in the delete browsing data dialog to delete history items for the last hour. -->
+    <string name="delete_history_prompt_button_last_hour">Ostatnia godzina</string>
+    <!-- Radio button in the delete browsing data dialog to delete history items for today and yesterday. -->
+    <string name="delete_history_prompt_button_today_and_yesterday">Dzisiaj i wczoraj</string>
+    <!-- Radio button in the delete browsing data dialog to delete all history. -->
+    <string name="delete_history_prompt_button_everything">Wszystko</string>
+
     <!-- Dialog message to the user asking to delete browsing data. Parameter will be replaced by app name. -->
     <string name="delete_browsing_data_prompt_message_3">%s usunie wybrane dane przeglądania.</string>
     <!-- Text for the cancel button for the data deletion dialog -->
@@ -1170,8 +1236,8 @@
     <!-- Text for the snackbar to show the user that the deletion of browsing data is in progress -->
     <string name="deleting_browsing_data_in_progress">Usuwanie danych przeglądania…</string>
 
-    <!-- Dialog message to the user asking to delete all history items inside the opened group. -->
-    <string name="delete_history_group_prompt_message">Spowoduje to usunięcie wszystkich elementów.</string>
+    <!-- Dialog message to the user asking to delete all history items inside the opened group. Parameter will be replaced by a history group name. -->
+    <string name="delete_all_history_group_prompt_message">Usuń wszystkie witryny w grupie „%s”</string>
     <!-- Text for the cancel button for the history group deletion dialog -->
     <string name="delete_history_group_prompt_cancel">Anuluj</string>
 
@@ -1183,19 +1249,33 @@
     <!-- Onboarding -->
     <!-- Text for onboarding welcome message
     The first parameter is the name of the app (e.g. Firefox Preview) -->
-    <string name="onboarding_header">Witamy w przeglądarce %s!</string>
+    <string moz:RemovedIn="106" name="onboarding_header" tools:ignore="UnusedResources">Witamy w przeglądarce %s!</string>
+    <!-- Text for onboarding welcome header. -->
+    <string name="onboarding_header_2">Witamy w lepszym Internecie</string>
+    <!-- Text for the onboarding welcome message. -->
+    <string name="onboarding_message">Przeglądarka tworzona dla ludzi, nie dla zysku.</string>
     <!-- text for the Firefox account onboarding sign in card header. The word "Firefox" should not be translated -->
-    <string name="onboarding_account_sign_in_header_1">Synchronizuj Firefoksa między urządzeniami</string>
+    <string moz:removedIn="106" name="onboarding_account_sign_in_header_1" tools:ignore="UnusedResources">Synchronizuj Firefoksa między urządzeniami</string>
+    <!-- Text for the Firefox account onboarding sign in card header. -->
+    <string name="onboarding_account_sign_in_header">Kontynuuj przeglądanie</string>
     <!-- Text for the button to learn more about signing in to your Firefox account. The first parameter is the name of the application.-->
-    <string name="onboarding_manual_sign_in_description_2">Przenieś zakładki, historię i hasła do przeglądarki %1$s na tym urządzeniu.</string>
+    <string moz:removedIn="106" name="onboarding_manual_sign_in_description_2" tools:ignore="UnusedResources">Przenieś zakładki, historię i hasła do przeglądarki %1$s na tym urządzeniu.</string>
+    <!-- Text for the button to learn more about signing in to your Firefox account. -->
+    <string name="onboarding_manual_sign_in_description">Synchronizuj karty i hasła między urządzeniami, aby błyskawicznie przechodzić z ekranu na ekran.</string>
     <!-- text for the button to manually sign into Firefox account. -->
-    <string name="onboarding_firefox_account_sign_in_1">Utwórz konto</string>
+    <string moz:removedIn="106" name="onboarding_firefox_account_sign_in_1" tools:ignore="UnusedResources">Utwórz konto</string>
+    <!-- Text for the button to manually sign into Firefox account. -->
+    <string name="onboarding_firefox_account_sign_in">Zaloguj się</string>
     <!-- text to display in the snackbar once account is signed-in -->
     <string name="onboarding_firefox_account_sync_is_on">Synchronizacja jest włączona</string>
     <!-- text for the tracking protection onboarding card header -->
-    <string name="onboarding_tracking_protection_header_3">Zawsze włączona prywatność</string>
+    <string moz:removedIn="106" name="onboarding_tracking_protection_header_3" tools:ignore="UnusedResources">Zawsze włączona prywatność</string>
+    <!-- Text for the tracking protection onboarding card header -->
+    <string name="onboarding_tracking_protection_header">Ochrona prywatności bez konfiguracji</string>
     <!-- text for the tracking protection card description. The first parameter is the name of the application.-->
-    <string name="onboarding_tracking_protection_description_4">%1$s automatycznie uniemożliwia firmom potajemne śledzenie Cię w Internecie.</string>
+    <string moz:removedIn="106" name="onboarding_tracking_protection_description_4" tools:ignore="UnusedResources">%1$s automatycznie uniemożliwia firmom potajemne śledzenie Cię w Internecie.</string>
+    <!-- Text for the tracking protection card description. -->
+    <string name="onboarding_tracking_protection_description">Zawiera całkowitą ochronę ciasteczek, która uniemożliwia elementom śledzącym używanie ciasteczek do śledzenia Cię między witrynami.</string>
     <!-- text for tracking protection radio button option for standard level of blocking -->
     <string name="onboarding_tracking_protection_standard_button_2">Standardowa (domyślna)</string>
     <!-- text for standard blocking option button description -->
@@ -1207,15 +1287,23 @@
     <!-- text for the toolbar position card header  -->
     <string name="onboarding_toolbar_placement_header_1">Wybierz położenie paska narzędzi</string>
     <!-- text for the toolbar position card description -->
-    <string name="onboarding_toolbar_placement_description_1">Miej pasek narzędzi zawsze pod ręką. Zostaw go na dole lub przenieś na górę.</string>
+    <string moz:removedIn="106" name="onboarding_toolbar_placement_description_1" tools:ignore="UnusedResources">Miej pasek narzędzi zawsze pod ręką. Zostaw go na dole lub przenieś na górę.</string>
+    <!-- Text for the toolbar position card description -->
+    <string name="onboarding_toolbar_placement_description">Zostaw go na dole lub przenieś na górę.</string>
     <!-- text for the privacy notice onboarding card header -->
-    <string name="onboarding_privacy_notice_header">Twoja prywatność</string>
+    <string moz:removedIn="106" name="onboarding_privacy_notice_header" tools:ignore="UnusedResources">Twoja prywatność</string>
+    <!-- Text for the privacy notice onboarding card header -->
+    <string name="onboarding_privacy_notice_header_1">Ty kontrolujesz swoje dane</string>
     <!-- text for the privacy notice onboarding card description
     The first parameter is the name of the app (e.g. Firefox Preview) Substitute %s for long browser name. -->
-    <string name="onboarding_privacy_notice_description2">%s został zaprojektowany tak, aby dać Ci kontrolę nad tym, co udostępniasz w sieci i czym dzielisz się z nami.</string>
+    <string moz:removedIn="106" name="onboarding_privacy_notice_description2" tools:ignore="UnusedResources">%s został zaprojektowany tak, aby dać Ci kontrolę nad tym, co udostępniasz w sieci i czym dzielisz się z nami.</string>
+    <!-- Text for the privacy notice onboarding card description. -->
+    <string name="onboarding_privacy_notice_description">Firefox daje Ci kontrolę nad tym, co udostępniasz w sieci i czym dzielisz się z nami.</string>
     <!-- Text for the button to read the privacy notice -->
     <string name="onboarding_privacy_notice_read_button">Poznaj nasze zasady ochrony prywatności</string>
 
+    <!-- Text for the conclusion onboarding message -->
+    <string name="onboarding_conclusion_header">Gotowi na odkrywanie fantastycznego Internetu?</string>
     <!-- text for the button to finish onboarding -->
     <string name="onboarding_finish">Zacznij przeglądać Internet</string>
 
@@ -1303,6 +1391,8 @@
     <string name="preference_enhanced_tracking_protection_custom_cookies_3">Wszystkie ciasteczka zewnętrznych witryn (może powodować niepoprawne działanie stron)</string>
     <!-- Option for enhanced tracking protection for the custom protection settings for cookies-->
     <string name="preference_enhanced_tracking_protection_custom_cookies_4">Wszystkie ciasteczka (spowoduje niepoprawne działanie stron)</string>
+    <!-- Option for enhanced tracking protection for the custom protection settings for cookies-->
+    <string name="preference_enhanced_tracking_protection_custom_cookies_5">Izolowanie ciasteczek między witrynami</string>
     <!-- Preference for enhanced tracking protection for the custom protection settings for tracking content -->
     <string name="preference_enhanced_tracking_protection_custom_tracking_content">Treści z elementami śledzącymi</string>
     <!-- Option for enhanced tracking protection for the custom protection settings for tracking content-->
@@ -1325,8 +1415,12 @@
     <string name="etp_social_media_trackers_description">Ogranicza możliwość śledzenia Twoich działań w Internecie przez serwisy społecznościowe.</string>
     <!-- Category of trackers (cross-site tracking cookies) that can be blocked by Enhanced Tracking Protection -->
     <string name="etp_cookies_title">Ciasteczka śledzące między witrynami</string>
+    <!-- Category of trackers (cross-site tracking cookies) that can be blocked by Enhanced Tracking Protection -->
+    <string name="etp_cookies_title_2">Ciasteczka między witrynami</string>
     <!-- Description of cross-site tracking cookies that can be blocked by Enhanced Tracking Protection -->
     <string name="etp_cookies_description">Blokuje ciasteczka używane przez sieci reklamowe i firmy analityczne do zbierania informacji o Twoich działaniach na wielu witrynach.</string>
+    <!-- Description of cross-site tracking cookies that can be blocked by Enhanced Tracking Protection -->
+    <string name="etp_cookies_description_2">Całkowita ochrona ciasteczek izoluje ciasteczka w odwiedzanej witrynie, więc elementy śledzące, takie jak sieci reklamowe, nie mogą ich używać do śledzenia Cię między witrynami.</string>
     <!-- Category of trackers (cryptominers) that can be blocked by Enhanced Tracking Protection -->
     <string name="etp_cryptominers_title">Elementy używające urządzenia użytkownika do generowania kryptowalut</string>
     <!-- Description of cryptominers that can be blocked by Enhanced Tracking Protection -->
@@ -1587,8 +1681,6 @@
     <string name="addresses_edit_address">Edytuj adres</string>
     <!-- Title of the "Manage addresses" screen -->
     <string name="addresses_manage_addresses">Zarządzaj adresami</string>
-    <!-- The header for the full name of an address -->
-    <string moz:removedIn="102" name="addresses_full_name" tools:ignore="UnusedResources">Imię i nazwisko</string>
     <!-- The header for the first name of an address -->
     <string name="addresses_first_name">Imię</string>
     <!-- The header for the middle name of an address -->
@@ -1853,4 +1945,5 @@
     <string name="experiments_snackbar">Włącz telemetrię, aby wysyłać dane.</string>
     <!-- Snackbar button text to navigate to telemetry settings.-->
     <string name="experiments_snackbar_button">Przejdź do ustawień</string>
+    <string name="firefox_suggest_header">Podpowiedzi Firefoksa</string>
 </resources>
